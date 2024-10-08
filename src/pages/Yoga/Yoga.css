@@ -1,0 +1,66 @@
+/* src/pages/Yoga/Yoga.css */
+
+.yoga-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px 20px 20px;
+}
+
+.performance-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pose-performance {
+  margin: 10px;
+}
+
+.webcam-canvas-container {
+  position: relative;
+  width: 100%;
+  max-width: 640px; /* Adjust as needed */
+  aspect-ratio: 4 / 3; /* Maintain aspect ratio */
+  margin-bottom: 16px;
+}
+
+.webcam,
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; /* Optional: Match border radius */
+}
+
+.canvas {
+  z-index: 2; /* Canvas on top */
+}
+
+.secondary-btn,
+.primary-btn {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  transition: background-color 0.2s;
+  margin-top: 30px;
+}
+
+.secondary-btn:hover {
+  background-color: #0056b3;
+}
+.pose-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}

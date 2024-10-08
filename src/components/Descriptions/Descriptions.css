@@ -1,0 +1,17 @@
+.descriptions-list {
+  border-radius: 8px;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin: 0 !important;
+}
+.description {
+  letter-spacing: 0.5px;
+  color: rgb(15, 15, 15);
+  font-weight: 400;
+}
+
+.descriptions-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}

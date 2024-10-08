@@ -1,0 +1,27 @@
+/* src/components/PoseSelector/PoseSelector.css */
+.pose-selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pose-button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pose-button:hover {
+  background-color: #f0f0f0;
+}
+
+.pose-button.active {
+  background-color: #4caf50;
+  color: white;
+}
